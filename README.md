@@ -19,19 +19,8 @@
     ```
 * **Potrace**: 一个将位图追踪为矢量图形的工具。**你需要自行安装 Potrace 并确保其可执行文件 (`potrace` 或 `potrace.exe`) 在你的系统 PATH 环境变量中。**
 
-    * **Windows:** 你可以从 [Potrace 官方网站](http://potrace.sourceforge.net/) 下载预编译的二进制文件，在脚本同目录下新建\potrace文件夹并将exe文件解压放置进该文件夹当中。
-    * **macOS:** 你可以使用 Homebrew 安装：
-        ```bash
-        brew install potrace
-        ```
-    * **Linux (Debian/Ubuntu):**
-        ```bash
-        sudo apt-get install potrace
-        ```
-    * **Linux (Fedora/CentOS):**
-        ```bash
-        sudo dnf install potrace
-        ```
+    * **Windows:** 你可以从 [Potrace 官方网站](http://potrace.sourceforge.net/) 下载预编译的二进制文件，在脚本同目录下新建\potrace文件夹并将二进制文件解压放置进该文件夹当中。
+
 
 ## 使用方法
 
